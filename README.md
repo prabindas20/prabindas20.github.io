@@ -82,5 +82,6 @@
     </div>
   </div>
 
-</body>
+</body> <script src="cart.js"></script>
+
 </html>
