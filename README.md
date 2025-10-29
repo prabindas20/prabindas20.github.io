@@ -2,32 +2,47 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Prabin's Page</title>
+  <title>Prabin Store</title>
   <style>
     body {
-      background: linear-gradient(120deg, #3a7bd5, #3a6073);
-      color: white;
+      background: #f8f9fa;
       font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
       text-align: center;
-      padding: 60px;
     }
-    h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
+    header {
+      background: #0077ff;
+      color: white;
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
     }
-    h2 {
-      font-weight: 400;
-      margin-bottom: 40px;
-      color: #e0e0e0;
+    .product-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 40px;
     }
-    .card {
+    .product {
       background: white;
-      color: #333;
-      width: 320px;
-      margin: auto;
-      border-radius: 20px;
-      padding: 25px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      width: 250px;
+      margin: 15px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 15px;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+    }
+    .price {
+      color: #0077ff;
+      font-weight: bold;
+      font-size: 18px;
     }
     .btn {
       background: #0077ff;
@@ -41,14 +56,31 @@
   </style>
 </head>
 <body>
-  <h1>👋 Hello, I'm Prabin</h1>
-  <h2>Welcome to my creative world!</h2>
 
-  <div class="card">
-    <h3>About Me</h3>
-    <p>I'm from Assam. I love design, poetry, and creativity 💙</p>
-    <button class="btn">Say Hi!</button>
+  <header>🛍️ Prabin's Online Store</header>
+
+  <div class="product-container">
+    <div class="product">
+      <img src="https://placekitten.com/250/250" alt="Product 1">
+      <h3>Stylish T-Shirt</h3>
+      <p class="price">₹499</p>
+      <a href="https://rzp.io/l/yourlink" target="_blank"><button class="btn">Buy Now</button></a>
+    </div>
+
+    <div class="product">
+      <img src="https://placehold.co/250x250" alt="Product 2">
+      <h3>Handmade Bag</h3>
+      <p class="price">₹899</p>
+      <a href="https://rzp.io/l/yourlink" target="_blank"><button class="btn">Buy Now</button></a>
+    </div>
+
+    <div class="product">
+      <img src="https://placehold.co/250x250?text=Item+3" alt="Product 3">
+      <h3>Wooden Craft</h3>
+      <p class="price">₹699</p>
+      <a href="https://rzp.io/l/yourlink" target="_blank"><button class="btn">Buy Now</button></a>
+    </div>
   </div>
+
 </body>
 </html>
-# prabindas20.github.io
