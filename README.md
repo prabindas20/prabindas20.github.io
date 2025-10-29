@@ -61,25 +61,25 @@
 
   <div class="product-container">
     <div class="product">
-      <img src="https://placekitten.com/250/250" alt="Product 1">
-      <h3>Stylish T-Shirt</h3>
-      <p class="price">₹499</p>
-      <a href="https://rzp.io/l/yourlink" target="_blank"><button class="btn">Buy Now</button></a>
-    </div>
+  <img src="https://placekitten.com/250/250" alt="Product 1">
+  <h3>Stylish T-Shirt</h3>
+  <p class="price">₹499</p>
+  <button class="btn" onclick="addToCart('Stylish T-Shirt', 499)">Add to Cart</button>
+</div>
 
     <div class="product">
       <img src="https://placehold.co/250x250" alt="Product 2">
       <h3>Handmade Bag</h3>
       <p class="price">₹899</p>
-      <a href="https://rzp.io/l/yourlink" target="_blank"><button class="btn">Buy Now</button></a>
-    </div>
+      <button class="btn" onclick="addToCart('Stylish T-Shirt', 499)">Add to Cart</button>
+</div>
 
     <div class="product">
       <img src="https://placehold.co/250x250?text=Item+3" alt="Product 3">
       <h3>Wooden Craft</h3>
       <p class="price">₹699</p>
-      <a href="https://rzp.io/l/yourlink" target="_blank"><button class="btn">Buy Now</button></a>
-    </div>
+        <button class="btn" onclick="addToCart('Stylish T-Shirt', 499)">Add to Cart</button>
+</div>
   </div>
 
 </body> <script src="cart.js"></script>
