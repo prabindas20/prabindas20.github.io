@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Your Cart</title>
+  <script src="cart.js"></script>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #f5f5f5;
+      text-align: center;
+      padding: 50px;
+    }
+    .box {
+      background: white;
+      width: 300px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 { color: #0077ff; }
+    #cart-items {
+      margin-top: 15px;
+      text-align: left;
+    }
+    #total {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    .btn {
+      background: #0077ff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body onload="loadCart()">
+  <div class="box">
+    <h2>Your Cart 🛒</h2>
+    <div id="cart-items"></div>
+    <div id="total"></div>
+    <a href="https://rzp.io/l/yourlink" target="_blank">
+      <button class="btn">Checkout</button>
+    </a>
+  </div>
+</body>
+</html>
